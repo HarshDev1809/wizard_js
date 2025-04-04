@@ -1,0 +1,31 @@
+{
+  "name": "wizard_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.cjs",
+  "type": "commonjs",
+  "exports": {
+    "require": "./index.cjs",
+    "import": "./index.mjs"
+  },
+  "scripts": {
+    "build" : "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshDev1809/wizard_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": ["index.js", "src/", "dist/", "index.mjs"],
+  "bugs": {
+    "url": "https://github.com/HarshDev1809/wizard_js/issues"
+  },
+  "homepage": "https://github.com/HarshDev1809/wizard_js#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "rollup": "^4.37.0"
+  }
+}
